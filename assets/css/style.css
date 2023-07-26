@@ -24,7 +24,7 @@ body{
 
 /* ===== FORM MAIN ===== */
 .login-main{
-    background: url('/assets/img/bg.jpg') no-repeat center /cover;
+    background: url(/assets/img/bg.jpg) no-repeat center /cover;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -47,7 +47,7 @@ body{
     content: "";
     width: 195px;
     height: 50px;
-    background: url('/assets/img/after.png') no-repeat center /cover;
+    background: url(/assets/img/after.png) no-repeat center /cover;
     top:0;
     right:0;
     position: absolute;
@@ -57,7 +57,7 @@ body{
     content: "";
     width: 195px;
     height: 50px;
-    background: url('/assets/img/before.png') no-repeat center /cover;
+    background: url(/assets/img/before.png) no-repeat center /cover;
     bottom:0;
     left:0;
     position: absolute;
